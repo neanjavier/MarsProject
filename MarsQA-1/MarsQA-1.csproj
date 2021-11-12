@@ -177,6 +177,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Feature\Login.cs" />
+    <Compile Include="Feature\ProfilePageFeature.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfilePageFeature.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Feature\ProfilePageFeatureSteps.cs" />
     <Compile Include="SpecflowPages\Helpers\CommonMethods.cs" />
     <Compile Include="SpecflowPages\Helpers\ConstantHelpers.cs" />
     <Compile Include="SpecflowPages\Helpers\Driver.cs" />
@@ -194,6 +200,10 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Feature\Login.feature" />
+    <None Include="Feature\ProfilePageFeature.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>ProfilePageFeature.feature.cs</LastGenOutput>
+    </None>
     <None Include="SpecflowTests\Data\Data.xlsx" />
     <None Include="packages.config" />
     <None Include="SpecflowTests\Data\Mars.xlsx" />
