@@ -374,5 +374,42 @@ namespace MarsQA_1.SpecflowPages.Pages
             deleteCertificationIcon.Click();
         }
 
+        public void EditAvailability(IWebDriver driver)
+        {
+            //click edit Icon
+            IWebElement editAvailabilityIcon = driver.FindElement(By.XPath("//*[@id='account - profile - section']/div/section[2]/div/div/div/div[2]/div/div/div/div/div/div[3]/div/div[2]/div/span/i"));
+            editAvailabilityIcon.Click();
+
+            //select from the dropdown
+            IWebElement availabilityDropdown = driver.FindElement(By.XPath("//*[@id='account - profile - section']/div/section[2]/div/div/div/div[2]/div/div/div/div/div/div[3]/div/div[2]/div/span/select"));
+            availabilityDropdown.Click();
+
+        }
+
+        public void EditHours(IWebDriver driver)
+        {
+            //click edit Icon
+            IWebElement editHoursIcon = driver.FindElement(By.XPath("//*[@id='account - profile - section']/div/section[2]/div/div/div/div[2]/div/div/div/div/div/div[3]/div/div[3]/div/span/i"));
+            editHoursIcon.Click();
+
+            //select from the dropdown
+            IWebElement hoursDropdown = driver.FindElement(By.XPath("//*[@id='account - profile - section']/div/section[2]/div/div/div/div[2]/div/div/div/div/div/div[3]/div/div[3]/div/span/select"));
+            hoursDropdown.Click();
+
+        }
+
+        public void EditEarnTarget(IWebDriver driver)
+        {
+            //click edit Icon
+            IWebElement editEarnTargetIcon = driver.FindElement(By.XPath("//*[@id='account - profile - section']/div/section[2]/div/div/div/div[2]/div/div/div/div/div/div[3]/div/div[4]/div/span/i"));
+            editEarnTargetIcon.Click();
+
+            //select from the dropdown
+            IWebElement earnTargetDropdown = driver.FindElement(By.XPath("//*[@id='account - profile - section']/div/section[2]/div/div/div/div[2]/div/div/div/div/div/div[3]/div/div[4]/div/span/select"));
+            earnTargetDropdown.Click();
+
+        }
+
+
     }
 }

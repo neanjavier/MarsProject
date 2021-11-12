@@ -186,6 +186,7 @@
     <Compile Include="SpecflowPages\Pages\SignIn.cs" />
     <Compile Include="SpecflowPages\Utils\Start.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\Certifications.cs" />
     <Compile Include="Tests\Education.cs" />
     <Compile Include="Tests\Languages.cs" />
     <Compile Include="Tests\Skills.cs" />
