@@ -9,7 +9,7 @@ namespace MarsQA_1.Pages
     {
         private static IWebElement ProfileTab => Driver.driver.FindElement(By.LinkText("Profile"));
 
-        private static IWebElement AvailabilityButton => Driver.driver.FindElement(By.XPath("//body[1]/div[1]/div[1]/section[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/span[1]/i[1]"));
+        private static IWebElement AvailabilityButton => Driver.driver.FindElement(By.XPath("//body/div[1]/div/section[2]/div/div/div/div[2]/div/div/div/div/div/div[3]/div/div[2]/div/span/i"));
         private static IWebElement HourButton => Driver.driver.FindElement(By.XPath("//*[@id='account-profile-section']/div/section[2]/div/div/div/div[2]/div/div/div/div/div/div[3]/div/div[3]/div/span/i"));
         private static IWebElement EarnTargetButton => Driver.driver.FindElement(By.XPath("//*[@id='account-profile-section']/div/section[2]/div/div/div/div[2]/div/div/div/div/div/div[3]/div/div[4]/div/span/i"));
 

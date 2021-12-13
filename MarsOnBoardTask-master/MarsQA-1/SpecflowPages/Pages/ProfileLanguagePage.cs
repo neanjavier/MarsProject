@@ -44,6 +44,7 @@ namespace MarsQA_1.Pages
             Thread.Sleep(3000);
             string language = Driver.driver.FindElement(By.XPath("//div/table/tbody[1]/tr/td[1]")).Text;
             Assert.AreEqual(ExcelLibHelper.ReadData(2, "Language"), language);
+            
         }
 
         public static void UserEditsTheirLanguageDetailsAndClicksUpdate()

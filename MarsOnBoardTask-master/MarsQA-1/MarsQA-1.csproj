@@ -185,6 +185,7 @@
     <None Include="Feature\ProfileDetails.feature" />
     <None Include="Feature\ProfileSkills.feature" />
     <None Include="Feature\ProfileLanguage.feature" />
+    <None Include="MarsProject Test cases.xlsx" />
     <None Include="SpecflowTests\Data\Data.xlsx" />
     <None Include="packages.config" />
     <None Include="SpecflowTests\Data\Mars.xlsx" />
